@@ -34,4 +34,6 @@ fun main() {
 
     println(WallService.add(post1))
 
+    val attach = Attachment.FileAttachment("file", File (111, "Документ", 222, 540, "ext", "url", 6042022, 0))
+
 }
